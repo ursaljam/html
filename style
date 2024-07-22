@@ -1,0 +1,59 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    background-color: rgb(245, 194, 105);
+    padding: 5px;
+    justify-content: center;
+}
+.title{
+    height: 350px;
+    width: auto;
+    background-color: rgb(247,230,210);
+    padding: 20px;
+    justify-content: center;
+}
+.Content{
+    height: 700px;
+    width: auto;
+    background-color: rgb(239,209,181);
+    padding: 20px;
+    justify-content: center;
+}
+.Quote{
+    height: 200px;
+    width: auto;
+    background-color: rgb(255,248,220);
+    padding: 20px;
+    justify-content: center;
+}
+.Footer{
+    display: flex;
+    height: 500px;
+    width: auto;
+    background-color: rgb(239,209,181);
+    padding: 20px;
+    justify-content: center;
+}
+.HOME{
+    margin: 5px;
+    font-size: small;
+}
+.ABOUT{
+    margin: 5px;
+    font-size: small;
+}
+.THETEAM{
+    margin: 5px;
+    font-size: small;
+}
+.BLOG{
+    margin: 5px;
+    font-size: small;
+}
