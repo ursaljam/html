@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTR-8"
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta rel =  preconnect href ="https://fonts.gstatic.com" crosssorigin
+        <link href ="https:fonts.googleapis.com/css2?family=Paytone+One&display=swap"rel="stylesheet"
+        <link href ="https:fonts.googleapis.com/css2?family=Abel&family=Paytone+One&display=swap"rel="stylesheet"
+        <link href ="https:fonts.googleapis.com/css2?family=Abel&family=Paytone+Onefamily=Rightious&display=swap "rel="stylesheet">\
+
+<link
+   href="https:fonts.googleapis.com/css2?family=Paytone+Onefamily=RhodiumLibre&family=Rightiousdisplay=swap "rel="stylesheet">
+   <title>Document</title>
+   </head>
+   <body>
+    <span>
+        <div class = "Container">
+            <div class ="Menu">
+                <span class = "wellness">
+                    <span class="titlefirst">Wellness</span>
+                    <span class="titlesecond">Pro</span>
+                </span>
+                <span class ="home"><p>HOME</p></span>
+                <span class ="about"><p>ABOUT</p></span>
+                <a href="secondpage.html" class ="team"><p>THE TEAM </p></a>
+                <span class ="blog"><p>BLOG</p></span>
+                <span class ="contactus"><p>CONTACT US</p></span>
+                <i class="bi-search"></i>
+            </div>
+            <div class = "title">
+                <div class="shape"></div>
+                <div class="shape2"></div>
+                <div class="head">
+                    <img src="images/hed 1.png" alt="">
+                </div>
+            </div>
+            <div class = "content">
+                <div class="images">
+                 <img class="pic1" src="images/edu.png" alt="">
+                  <img class="pic2" src="images/sem 1.png" alt="">
+                  <img class="pic3" src="images/wee 1.png" alt=""> 
+                </div>
+                <div class="text">
+                    <h2 class="contentText1">KNOWLEDGE</h2>
+                    <h2 class="contentText2">TRAINING</h2>
+                    <h2 class="contentText3">WELLNESS</h2>
+                    <p class="subtext1">WellnessPro provide information about
+                       your health. Some
+                       features that can access your needs.
+                       WellnessPro encourage the 
+                       clients the beauty of life.</p>
+                    <p class="subtext2">We conduct training and seminar on 
+                        how to access client's application and
+                        their uses for the clients's need. </p>
+                    <p class="subtext3">Good for client's that can benefits in all
+                        their needs.
+                        Helps client's identify and address 
+                        whatever may be holding back.
+                    </p>
+                </div>
+                <div class="trends">
+                    <div class="boxtrends"><p class="trendsText">TRENDS</p></div>
+                    <div class="trendsContent">
+                        <h2 class="sites1">Well+Good</h2>
+                        <img class="pc1" src="images/weell+good.png" alt="">
+                        <p class="t1">www.wellandgood.com</p>
+                        <h2 class="sites2">Happiful</h2>
+                        <img class="pc2" src="images/happiful.png" alt="">
+                        <p class="t2">www.happiful.com</p>
+                        <h2 class="sites3">TrendLtc.</h2>
+                        <img class="pc3" src="images/trend.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class = "quote">
+                <div class="justbreathe">
+                    <div class="innercircle">
+                    <p class="just">JUST</p>
+                    <p class="breathe">BREATHE</p>
+                    </div>
+                </div>
+                <p class="quoteText1">"The best investment 
+                    you've ever make is
+                    your own <b class="text2">HEALTH</b>"</p>
+                   
+            </div>
+            <div class = "footer">
+                <span class="allrights"><p>All Rights Reserved 2021</p></span>
+            </div>
+        </div>
+   </body>
+   
+
+        
+</html>
