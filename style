@@ -3,57 +3,130 @@
     margin: 0;
     padding: 0;
 }
+.Wellness{
+    position: absolute;
+    text-align: center;
+    font-family: "Paytone One";
+    color: rgb(254, 235, 163);
+    margin-left: 30px;
+    font-size: x-large;
+}
+.Pro{
+    position: absolute;
+    text-align: center;
+    margin-left: 137px;
+    font-family: "Paytone One";
+    color: white ;
+    font-size: x-large;
+}
 .Container{
-    display: flex;
-    align-items: center;
+    position: absolute;
     height: 30px;
-    width: auto;
-    background-color: rgb(245, 194, 105);
-    padding: 5px;
-    justify-content: center;
+    width: 100%;
+    background-color: rgb(176, 148, 100);
+    padding: 10px;
+}
+.bi-search{
+  height: 50px;
+  width: 50px;
 }
 .title{
-    height: 350px;
-    width: auto;
-    background-color: rgb(247,230,210);
+    height: 450px;
+    width: 100%;
+    background-color: rgb(248, 231, 213);
     padding: 20px;
-    justify-content: center;
 }
 .Content{
-    height: 700px;
+    display: flex;
+    height: 300px;
     width: auto;
-    background-color: rgb(239,209,181);
-    padding: 20px;
+    background-color: rgb(246,229,211);
+    padding: 10px;
     justify-content: center;
 }
 .Quote{
-    height: 200px;
+    height: 150px;
     width: auto;
-    background-color: rgb(255,248,220);
+    background-color: rgb(239, 209, 181);
     padding: 20px;
     justify-content: center;
 }
 .Footer{
     display: flex;
-    height: 500px;
+    align-items: center;
+    height: 30px;
     width: auto;
     background-color: rgb(239,209,181);
     padding: 20px;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
-.HOME{
+.Well{
+    position: relative;
     margin: 5px;
-    font-size: small;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ABOUT{
+.Item1{
     margin: 5px;
-    font-size: small;
+    font-size: medium;
+    margin-left: 310px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: "Abel";
 }
-.THETEAM{
+.Item2{
+    position: absolute;
     margin: 5px;
-    font-size: small;
+    font-size: medium;
+    margin-left: 358px;
+    color: white;
+    font-family: "Abel";
 }
-.BLOG{
+.Item3{
+    position: absolute;
     margin: 5px;
-    font-size: small;
+    font-size: medium;
+    margin-left: 409px;
+    color: white;
+    font-family: "Abel";
+}
+.Item4{
+    position: absolute;
+    margin: 5px;
+    font-size: medium;
+    margin-left: 480px;
+    color: white;
+    font-family: "Abel";
+}
+.Item5{
+    position: absolute;
+    margin: 5px;
+    font-size: medium;
+    margin-left: 523px;
+    text-align: center;
+    color: white;
+    font-family: "Abel";
+}
+.health{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 187px;
+    margin-right: 30px;
+    margin-top: 25px;
+    text-align: left;
+}
+.circle {
+    height: 0px;
+    width: 0px;
+    background-color: rgb(243, 55, 234);
+    border-bottom-left-radius: 400px;
+  }
+.bi-search{
+    margin-left: 630px;
+    font-size: x-large;
+
 }
