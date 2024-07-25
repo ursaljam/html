@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>okay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Frijole&family=Kaushan+Script&family=Paytone+One&family=Red+Rose:wght@300..700&family=Rhodium+Libre&family=Righteous&display=swap');
+
+</style>
+<body>
+    <h1 class="head">Wellness<span class="white">Pro</span></h1>
+      <div class="navigation">
+<a href="#" class="HUME">HOME</a>
+<a href="#" class="abawt">ABOUT</a>
+<a href="theteam.html" class="team">THE TEAM</a>
+<a href="#" class="BLUG">BLOG</a>
+<a href="#" class="contack_us">CONTACT US</a>
+<i class="bi bi-search"></i>
+<div class="shadoe"></div>
+<div class="starring"></div>
+      </div>
+
+      <div class="container">
+        <img src="hed 1.png" class="hed1">
+        <div class="container2"></div>
+            <div class="container3">
+        <img src="edu.png" class="edu">    
+        <img src="sem 1.png" class="sem">
+        <img src="wee 1.png" class="wee">
+        <h1 class="know">KNOWLEDGE</h1>
+        <p class="wellness">WellnessPro
+provide informations about <br> your health.
+Some <br> features that can access your needs. <br>
+WellnessPro encourage the <br> clients the beauty of life
+      </p>
+      <h1 class="train">TRAINING</h1>
+<p class="training">We conduct training and seminar on <br> 
+how to access client's application and <br>
+their uses for the client's need.
+      </p>
+      <h1 class="well">WELLNESS</h1>
+<p class="good">Good for client's that can benefits in all <br>
+their needs. <br> Helps client's identify and address <br>
+whatever may be holding back.
+      </p>
+    </div>
+
+
+
+    <div class="contain">
+        <h1 class="just"></h1>
+        <div class="breath">
+        <h1 class="justb">JUST</h1>
+        <h1 class="bret">BREATHE</h1>
+        <h1 class="line"></h1>
+              </div>
+
+<h6 class="the">"The best investment</h6>
+<h3 class="best"> you've ever make is</h3>
+<h3 class="inves">your own <span class="heal">HEALTH</span>"</h3>
+<footer class="all">All Rights Reserved 2021</footer>
+</div>
+  </div>
+
+
+  <div class="container5">
+    <img src="trends.png" class="pic1">
+    <img src="trends2.png" class="happi">
+    <img src="trends3.png" class="trend">
+  </div>
+  </div>
+
+  <div class="container4">TRENDS
+    <p class="plus">Well+Good</p>
+    <p class="www">www.wellandgood.com</p>
+    <p class="hap">Happiful</p>
+    <p class="www2">www.happiful.com</p>
+    <p class="ltc">TrendLtc.</p>
+  </div> 
+  
+</body>
+</html>
+
+sstyle.css
+
+.restiny{
+    margin: 0;
+    padding: 0;
+  }
+  .navigation{
+   position:absolute;
+   top: 15px;
+   left: 260px;
+   margin-left: 20px;
+   font-family: "Abel";
+  }
+  .navigation a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .HUME{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: rgb(255, 255, 255);
+  }
+  .HUME:hover{
+    background-color: #ffeca0;
+    color: black;
+  }
+  .abawt{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: white;
+  }
+  .abawt:hover{
+    background-color: #ffeca0;
+    color: black;
+  }
+  .BLUG{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: white;
+  }
+  .BLUG:hover{
+    background-color: #ffeca0;
+    color: black;
+  }
+  .team{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color:rgb(255, 255, 255);
+  }
+  .team:hover{
+    background-color: #ffeca0;
+    color: black;
+  }
+  .contack_us{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: white;
+  }
+  .contack_us:hover{
+    background-color: #ffeca0;
+    color: black;
+  }
+  .bi{
+    position: absolute;
+    font-size: 30px;
+    bottom: 0;
+    margin-left: 70px;
+    padding-top: 19px;
+  }
+  .bi:hover{
+    cursor: pointer;
+   }
+  body{
+    background-color: #f6e5d3
+    
+  }
+  .head{
+    font-size:24px;
+    background-color:#b09464;
+    color: #ffeca0;
+    padding: 8px;
+    width: 769px;
+    font-family:"Paytone One";
+  }
+  .white{
+    color: white;
+  }
+  .container{
+    position: relative;
+    background-color: rgba(245, 205, 137, 0.549);
+    width:785px;
+    height: 383px;
+  }
+  .container2{
+    position: absolute;
+    background-color: #2c2c2b17;
+    height: 250px;
+    width: px;
+    margin-top: 150px;
+    border-top-left-radius: 800px;
+    
+  }
+  .hed1{
+    margin-left:17%;
+    width: 490px;
+    
+  }
+  .shadoe{
+   background-color: #f6d8aa;
+   position:absolute;
+   width: 160px;
+   height: 230px;
+   border-bottom-left-radius: 500%;
+   top: 34px;
+   margin-left: 345px;
+  }
+  .starring{
+    position: absolute;
+    margin-left:246px;
+    margin-top: 202px;
+    height:195px;
+    width: 259px;
+    border-top-left-radius: 400%;
+    background-color: #f6d8aa;
+  }
+  .container3{
+    position: relative;
+    background-color: #EFD1B5;
+    width: 785px;
+    height: 560px;
+  }
+  .container4{
+    position:relative;
+    height: 30px;
+    width:175px;
+    background-color: #AE9262;
+    left:541px;
+    margin-top:-520px;
+    text-align: center;
+    font-size: 26px;
+    padding: 7px;
+    color: white;
+    font-family: "Red Rose";
+  }
+  .container5{
+    position: relative;
+    background-color: #f6e5d3;
+    margin-top: 35px;
+    width: 220px;
+    height: 500px;
+    margin-left: 525px;
+  }
+  .pic1{
+    width: 130px;
+    margin-left: 45px;
+    margin-top: 73px;
+  }
+  .contain{
+    background-color: #FFF8DC;
+    height: 500px;
+    width: 100%px;
+  }
+  .know{
+    position: absolute;
+    top: 20px;
+    margin-left:190px;
+    font-family: "Righteous";
+  }
+  .wellness{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 190px;
+    top: 60px;
+    line-height: 22px;
+    font-family: "Rhodium Libre";
+  }
+  .edu{
+    position:absolute;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .sem{
+    position:absolute;
+    width: 162px;
+    margin-top: 210px;
+    margin-left: 20px;
+  }
+  .train{
+    position: absolute;
+    top: 210px;
+    margin-left:190px;
+    font-family: "Righteous";
+  }
+  .training{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 190px;
+    top: 250px;
+    line-height: 21px;
+    font-family: "Rhodium Libre";
+  }
+  .wee{
+    position: absolute;
+    width: 162px;
+    top: 370px;
+    margin-left: 20px;
+  }
+  .happi{
+    position:absolute;
+    width: 159px;
+    top: 283px;
+    margin-left: -140px;
+  }
+  .plus{
+    position: absolute;
+    margin-left: 3px;
+    top: 62px;
+    font-size: 20px;
+    color: black;
+    font-family: "Rhodium Libre";
+  }
+  .www{
+    margin-top: 188px;
+    font-size: 14px;
+    margin-left:7px;
+    color: black;
+    font-family: "Rhodium Libre";
+  }
+  .www2{
+    margin-top: 170px;
+    font-size: 14px;
+    margin-left:8px;
+    color: black;
+    font-family: "Rhodium Libre";
+  }
+  .well{
+    position: absolute;
+    top: 375px;
+    margin-left:190px;
+    font-family: "Righteous";
+  }
+  .good{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 190px;
+    top: 412px;
+    line-height: 21px;
+    font-family: "Rhodium Libre";
+  } 
+  .hap{
+    position: absolute;
+    top: 270px;
+    font-size: 20px;
+    margin-right:20px;
+    font-family: "Rhodium Libre";
+    color: black;
+  }
+  .trend{
+    width: 115px;
+    height: 40px;
+    margin-top: 252px;
+    margin-left: 55px;
+  }
+  .ltc{
+    font-family: "Rhodium Libre";
+    margin-top: 1px;
+    margin-right: 110px;
+    font-size: 20px;
+    color: black;
+  }
+  .just{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 500%;
+    border: 4px solid #BCB29B;
+    width: 285.10px;
+    height: 285.5px;
+    left:25.7px;
+    margin-top: 99.7px;
+    font-family: "Abel";
+  }
+  
+  .breath{
+    position: absolute;
+    background-color: #B09464;
+    border-radius: 500%;
+    width:277.9px;
+    height:277.9px;
+    left:33.4px;
+    margin-top: 106.9px;
+  }
+  .justb{
+    position:absolute;
+    font-family: "Abel";
+    margin-top:55px;
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    font-size: 50px;
+    font-weight: 10;
+  }
+  .bret{
+    position:absolute;
+    color: white;
+    margin-top:100px;
+    font-size: 73px;
+    text-align: center;
+    margin-left: 11px;
+    font-family: "Abel";
+  }
+  .line{
+    position:absolute;
+    background-color: #d8d4cef7;
+    height: 3px;
+    width: 210px;
+    margin-top: 190px;
+    margin-left: 40px;
+  }
+  .all{
+    position:absolute;
+    background-color: #B09464;
+    color: white;
+    height: 30px;
+    padding-top: 15px;
+    text-align: center;
+    width: 785px;
+    font-weight: 10;
+    font-size: 15px;
+    font-family: "Red Rose";
+    margin-top:500px;
+  }
+  .the{
+    position:absolute;
+    font-family: "Kaushan Script";
+    margin-left: 350px;
+    margin-top: 130px;
+    font-size: 48px;
+    color: #843E15;
+  }
+  .best{
+    position:absolute;
+    font-family: "Kaushan Script";
+    margin-left: 350px;
+    margin-top: 210px;
+    font-size: 48px;
+    color: #843E15;
+  }
+  .inves{
+    position:absolute;
+    font-family: "Kaushan Script";
+    margin-left: 330px;
+    margin-top: 300px;
+    font-size: 48px;
+    color: #843E15;
+  }
+  .heal{
+    font-family: "Rhodium Libre";
+    font-weight: 100;
+    font-size: 50px;
+    color: #843E15;
+  }
