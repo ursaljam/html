@@ -1,0 +1,456 @@
+homepage.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="orders.css">
+    <link rel="stylesheet" href="homapage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik+Moonrocks&display=swap');
+    </style>        
+</head>
+<body>
+    <div class="container">
+
+        <div class="menu">
+            <img class="menuicon" src="elements/menu.png" alt="">
+            <img class="account" src="elements/account.png" alt="">
+            <img class="cart" src="elements/cart.png" alt="">
+           
+
+        </div>
+        <div class="part1">
+            <div class="redsquare1">
+                <img class="chick1" src="elements/Group 23.png" alt="">
+            </div>
+            <div>
+                <h1 class="description1">KYLLE'S <br> FRIED</h1> 
+                <img class="logo1" src="elements/Kylle_s-removebg-preview 1.png" alt="">  
+            </div>
+            <div class="chickenbox">
+                <h2 class="chickentext">CHICKEN</h2>
+            </div>
+            <a href="orders.html" class="orderbox">
+                <h2 class="order">Order Now</h2>
+            </a>
+            <div class="chickenboxes">
+                <img class="pic1" src="elements/image 1.png" alt="">  
+                <img class="pic2" src="elements/image 2.png" alt="">  
+                <i class="bi bi-arrow-left-right"></i>
+            </div>
+            <div class="yellowbox">
+                <img class="logo" src="elements/Kylle_s-removebg-preview 1.png" alt="">
+                <div class="text">
+                    <p>25% <b>off at <br> 1st purchase</b></p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="part2">
+            <div class="secsquare">
+                <img class="secchick1" src="elements/Group 24.png" alt="">
+            </div>
+            <div class="mader">
+                <img class="pede" src="elements/PWEDE PANG.png" alt="">
+                <img class="seclogo1" src="elements/Kylle_s-removebg-preview 1.png" alt=""> 
+                <div class="namebox">
+                    <h1 class="pulutan">PULUTAN</h1> 
+                </div> 
+                <p class="description">Enjoy eating with your<br>friends and family. The<br>best way to connect with<br>each other is through<br>food.
+                <p>
+            </div>
+            <div class="secchickenboxes">
+                <img class="secpic1" src="elements/image 1.png" alt="">  
+                <img class="secpic2" src="elements/image 2.png" alt="">  
+                <i class="bi bi-arrow-left-right"></i>
+            </div>
+          <div class="texts">
+            <h2 class="inquiries">Inquiries: <b class="white1">@kyllesfriedchicken</b></h2>
+            <h2 class="orderm">Order: <b class="white2">@kyllesfriedchicken</b></h2>
+            <h2 class="phone">Phone: <b class="white3">(032)-566-664</b></h2>
+          </div>
+           
+        <div class="contactus">
+              <h2 class="insidetext">Contact us</h2>
+        </div>
+          </div>
+        </div>
+        <hr>
+        <div class="footer">
+          <img class="footerlogo" src="elements/Kylle_s-removebg-preview 1.png" alt="">
+           <img class="facebook" src="elements/facebook.png" alt="">
+           <img class="insta" src="elements/instagram.png" alt="">
+           <img class="twitter" src="elements/Group 26.png" alt="">
+        </div>
+</body>
+</html>
+
+homepage.css
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 900px;
+    background-color: rgb(233, 233, 233);
+}
+/*menu items*/
+.menu{
+    height: 30px;
+    width: auto;
+    background-color:rgb(239, 182, 77);
+    padding: 5px;
+    position: relative;
+}
+.menubar{
+    height: 30px;
+    width: 10px;
+
+}
+.menuicon{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    position: absolute;
+}
+.account{
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    margin-top: 5px;
+    position: absolute;
+}
+.cart{
+    height: 30px;
+    width: 35px;
+    margin-left: 300px;
+    margin-top: 5px;
+    position: absolute;
+}
+/*content*/
+.part1{
+    height: 1050px;
+    width: auto;
+    background-color:rgb(239, 182, 77);
+    padding: 5px;
+    position: relative
+}
+.redsquare1{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(200, 52, 52);
+    position: relative;
+    border-bottom-left-radius: 10%;
+    margin-left: 444px;
+    margin-top: -50px;
+}
+.description1{
+    font-size: 60px;
+    font-family: 'Archivo Black';
+    font-weight: bolder;
+    margin-top: -400px;
+    margin-left: 40px;
+}
+.logo1{
+    margin-left: 180px;
+    margin-top: -70px;
+}
+.chickenbox{
+    height: 65px;
+    width: 310px;
+    background-color: rgb(189, 48, 39);
+    rotate: 7deg;
+    margin-top: -128px;
+    margin-left: 42px;
+    position: relative;
+}
+.chickentext{
+    font-size: 60px;
+    font-family: 'Rubik Moonrocks';
+    color: rgb(255, 206, 13);
+    font-weight: normal;
+    margin-left: 10px;
+}
+.orderbox{
+    height: 75px;
+    width: 260px;
+    border-radius: 20cap;
+    background-color: rgb(234, 125, 66);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.order{
+    font-size:40px;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 12px;
+    position: relative;
+}
+.chickenboxes{
+    height: 165px;
+    width: 500px;
+    background-color:rgb(221, 152, 23);
+    margin-top: 250px;
+    border-top-right-radius: 4cap;
+    border-bottom-right-radius: 4cap;
+    margin-left: -5px;
+    position: relative;
+}
+.chickenboxes i{
+    font-size: 80px;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 30px;
+    position: absolute;
+}
+.pic1{
+    height:96px ;
+    width: 130px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.pic2{
+    height:96px ;
+    width: 130px;
+    margin-left: 40px;
+}
+
+.yellowbox{
+    height:120px ;
+    width: 240px;
+    background-color:rgb(255, 206, 15) ;
+    border-radius: 2cap;
+    margin-top: -130px;
+    margin-left: 560px;
+    position: relative;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+.text p{
+    font-size: 25px;
+    color: rgb(200, 75, 33);
+
+}
+.text b{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.text{
+    margin-top: -38px;
+    margin-left: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Archivo Black';
+}
+.part2{
+    height: 550px;
+    width: auto;
+    background-color:rgb(239, 182, 77);
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.secsquare{
+    height: 530px;
+    width: 450px;
+    border-top-right-radius: 5cap;
+    border-bottom-right-radius: 5cap;
+    background-color:rgb(200, 52, 52) ;
+    margin-top: -300px;
+    margin-left: -5px;
+    position: relative;
+}
+.secchick1{
+    height: 460px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: -35px;
+    position: relative;
+}
+.mader{
+    position: relative;
+}
+.pede{
+    height: 130px;
+    width: 230px;
+    margin-top: -510px;
+    margin-left: 60px;
+    position: absolute;
+}
+.namebox{
+    height: 70px;
+    width: 350px;
+    background-color: rgb(198, 55, 48);
+    margin-top: -350px;
+    margin-left: 500px;
+    position: absolute;
+    rotate: 7deg;
+}
+.pulutan{
+    font-size: 65px;
+    font-family: 'Rubik Moonrocks';
+    margin-left: -2px;
+    margin-top: -3px;
+    color: rgb(255, 181, 40);
+    font-weight: normal;
+}
+.seclogo1{
+    position: absolute;
+    margin-top: -460px;
+    margin-left: 170px;
+    height: 250px;
+    width: 250px;
+}
+.secchickenboxes{
+    height: 165px;
+    width: 500px;
+    background-color:rgb(221, 152, 23);
+    margin-top: 75px;
+    border-top-left-radius: 4cap;
+    border-bottom-left-radius: 4cap;
+    margin-left: 395px;
+    position: relative;
+}
+.description{
+    font-size: 25px;
+    color: black;
+    font-family: 'Montserrat';
+    margin-top: -170px;
+    margin-left: 500px;
+    position: absolute;
+    text-align: left;
+}
+.secchickenboxes i{
+    font-size: 80px;
+    color: aliceblue;
+    margin-left: -430px;
+    margin-top: 30px;
+    position: absolute;
+}
+.secpic1{
+    height:96px ;
+    width: 130px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.secpic2{
+    height:96px ;
+    width: 130px;
+    margin-left: 40px;
+}
+.texts{
+   position: absolute;
+    margin-top: -170px;
+    margin-left: 45px;
+    text-align: left;
+}
+.inquiries{
+    font-size: 25px;
+    color: rgb(202, 50, 54);
+    position: relative;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+}
+.orderm{
+    font-size: 25px;
+    color: rgb(202, 50, 54);
+    position: relative;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+}
+.phone{
+    font-size: 25px;
+    color: rgb(202, 50, 54);
+    position: relative;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+}
+.white1{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo Black';
+}
+.white2{
+    font-size: 15px;
+    color: rgb(255, 255, 255);  
+    font-family: 'Archivo Black';
+    margin-left: 30px;
+}
+.white3{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo Black';
+    margin-left: 30px;
+}
+.contactus{
+    height: 45px;
+    width: 190px;
+    border-radius: 20cap;
+    background-color: rgb(234, 125, 66);
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 95px;
+}
+.insidetext{
+    font-size:20px;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 8px;
+    margin-left: 4px;
+    position: relative;
+}
+
+/*footer*/
+.footer{
+    height:65px;
+    width: 890px;
+    background-color:rgb(255, 193, 78);
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.footerlogo{
+    height: 80px;
+    width: 80px;
+    margin-top: 0px;
+    margin-left: -430px;
+    position: absolute;
+}
+.facebook{
+    height: 50px;
+    width: 50px;
+    margin-left: -110px;
+    margin-top: 10px;
+    position: absolute;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: absolute;
+}
+.twitter{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 10px;
+    position: absolute;
+}
+
