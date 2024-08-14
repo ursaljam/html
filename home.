@@ -1,0 +1,970 @@
+HOME.css
+body {
+    font-family: "Goblin One";
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-auto-rows: 80px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e81500;
+    color: white;
+}
+
+.logo {
+    justify-self: start;
+}
+
+.logo1 {
+    height: 60px;
+    padding-left: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    background-color: white;
+    height: 2px;
+    margin: 3px;
+    width: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.order-now {
+    justify-self: end;
+}
+
+.order-now a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 21px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-order-now {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-order-now a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    padding: 30px 60px;
+    border-radius: 50px;
+    font-size: 36px;
+}
+
+.ourfav {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #e81500;
+    letter-spacing: 4px;
+}
+
+.favorites {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #e81500;
+    text-align: center;
+}
+
+.favorite-item img {
+    width: 60%;
+    height: auto;
+}
+
+.favorite-item h3 {
+    margin-top: 30px;
+    color: white;
+    font-size: 26px;
+}
+
+.branches {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.branches h1 {
+    color: black;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.br9 {
+    color: #e81500;
+    font-size: 40px;
+}
+
+.fam {
+    font-family: Arial;
+    font-weight: 100;
+}
+
+.bpartner {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bpartner a {
+    color: white;
+    text-decoration: none;
+    background-color: #e81500;
+    padding: 40px 50px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+    align-items: center;
+    background-color: #e81500;
+    padding-bottom: 30px;
+    font-family: Arial;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.continf {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.logo2 {
+    justify-self: center;
+}
+
+.logo2 img {
+    height: 180px;
+    width: 200px;
+    padding-left: 450px;
+    padding-top: 50px
+}
+
+.footer {
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr auto;
+        padding: 0px;
+    }
+    .order-now{
+        display: none;
+    }
+    .nav {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+    .logo1{
+        margin-top: 35px;
+        height: 40px;
+    }
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #e81500;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 15px 20px;
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+    .banner-order-now a{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .ourfav{
+        font-size: 15px;
+        letter-spacing: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .favorites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .favorite-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .favorite-item img {
+        width: 40%;
+        margin-right: 40px;
+        margin-left: 15px;
+    }
+
+    .favorite-item h3 {
+        align-self: center;
+        font-size: 20px;
+    }
+    .s1{
+        margin-left: 45px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .continf {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .logo2 {
+        padding: 20px 0;
+    }
+
+    .logo2 img {
+        padding: 0;
+        height: 150px;
+        width: 150px;
+    }
+    .branches h1 {
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .br9 {
+        color: #e81500;
+        font-size: 25px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .fam {
+        font-family: Arial;
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    .bpartner {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .bpartner a {
+        color: white;
+        text-decoration: none;
+        background-color: #e81500;
+        padding: 15px 20px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+}
+
+HOME.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo1" src="./Assets/logo1.png" alt="Logo1 Image">
+        </div>
+        <nav class="nav">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a style="color: yellow" href="#">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+        <div class="order-now">
+            <a href="#">ORDER NOW!</a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="./Assets/banner.png" alt="Banner Image">
+        <div class="banner-order-now">
+            <a href="#">ORDER NOW!</a>
+        </div>
+    </section>
+
+    <section class="ourfav">
+        <h1>OUR FAVORITES</h1>
+    </section>
+
+    <section class="favorites">
+        <div class="favorite-item">
+            <img src="./Assets/chicken.png" alt="Favorite 1">
+            <h3>FRIED CHICKEN</h3>
+        </div>
+        <div class="favorite-item">
+            <img src="./Assets/siomai.png" alt="Favorite 2">
+            <h3 class="s1">SIOMAI</h3>
+        </div>
+        <div class="favorite-item">
+            <img src="./Assets/lumpia.png" alt="Favorite 3">
+            <h3>LUMPIA SHANGHAI</h3>
+        </div>
+    </section>
+
+    <section class="branches">
+        <h1>Now with <br>
+            <span class="br9">900 BRANCHES</span> <br>
+            Nationwide! <br>
+            <span class="fam">Be a part of our fast-growing family!</span>
+        </h1>
+        <div class="bpartner">
+            <a href="#">Become a Business Partner</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="continf">
+            <h2>Contact Us</h2>
+            <p>
+                <span class="lbl">MAIN OFFICE:</span> Cogon Combado, Ormoc City, Leyte 6541 <br>
+                <span class="lbl">MARKETING & FRANCHISE OFFICE:</span> P. Rodriguez St., Bogo City, Cebu <br>
+                <span class="lbl">LANDLINE:</span> 123-456-789 <br>
+                <span class="lbl">EMAIL:</span> crispykingph@gmail.com
+            </p>
+        </div>
+        <div class="logo2">
+            <img src="./Assets/logo2.png" alt="Logo2 Image">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Crispy King Ventures. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
+
+MENU.css
+body {
+    font-family: "Goblin One";
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-auto-rows: 80px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e81500;
+    color: white;
+}
+
+.logo {
+    justify-self: start;
+}
+
+.logo1 {
+    height: 60px;
+    padding-left: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    background-color: white;
+    height: 2px;
+    margin: 3px;
+    width: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.order-now {
+    justify-self: end;
+}
+
+.order-now a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 21px;
+}
+
+.head {
+    text-align: center;
+    font-size: 40px;
+    color: #e81500;
+}
+
+.menu1 {
+    background-color: #e81500;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.menu1 img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    justify-self: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.desc1 {
+    position: relative;
+}
+
+.desc1 h1{
+    justify-self: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.addbtn1 {
+    position: relative;
+    top: 150px;
+}
+
+.addbtn1 a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.addbtn1 a:hover {
+    background-color: #911004;
+    color: white;
+}
+
+.menu2 {
+    background-color: #e81500;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.5fr;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.menu2 img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    justify-self: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.desc2 {
+    position: relative;
+}
+
+.desc2 h1{
+    justify-self: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.addbtn2 {
+    position: relative;
+    top: 150px;
+}
+
+.addbtn2 a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.addbtn2 a:hover {
+    background-color: #911004;
+    color: white;
+}
+
+.orderbtn {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    padding-left: 550px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.orderbtn a {
+    color: #e81500;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid red;
+    padding: 22px 29px;
+    border-radius: 50px;
+    font-size: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.orderbtn a:hover {
+    background-color: #911004;
+    color: white;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+    align-items: center;
+    background-color: #e81500;
+    padding-bottom: 30px;
+    font-family: Arial;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.continf {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.logo2 {
+    justify-self: center;
+}
+
+.logo2 img {
+    height: 180px;
+    width: 200px;
+    padding-left: 450px;
+    padding-top: 50px
+}
+
+.footer {
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 600px){
+    .header {
+        grid-template-columns: 1fr auto;
+        padding: 0px;
+    }
+    .nav {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+    .logo1{
+        margin-top: 35px;
+        height: 40px;
+    }
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #e81500;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 15px 20px;
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+    .order-now{
+        display: none;
+    }
+    .head{
+        font-size: 15px;
+    }
+    .menu1 {
+        display: flex;
+        height: 510px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: #e81500;
+    }
+    .menu1 img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px 0;
+    }
+    .desc1 h1 {
+        color: white;
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding-top: 10px;
+    }
+
+    .addbtn1 a {
+        font-size: 18px;
+        padding: 10px 15px;
+        position: absolute;
+        width: 80px;
+        bottom: 90px;
+        right: -50px;
+    }
+    .orderbtn{
+        padding-left: 145px;
+        margin-top: 40px;
+        margin-bottom: 40pxs;
+    }
+    .orderbtn a {
+        color: #e81500;
+        text-decoration: none;
+        background-color: white;
+        border: 2px solid red;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .continf {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .logo2 {
+        padding: 20px 0;
+    }
+
+    .logo2 img {
+        padding: 0;
+        height: 150px;
+        width: 150px;
+    }
+    .branches h1 {
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .br9 {
+        color: #e81500;
+        font-size: 25px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .fam {
+        font-family: Arial;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+
+MENU.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Menu.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo1" src="./Assets/logo1.png" alt="Logo1 Image">
+        </div>
+        <nav class="nav">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="Home.html">Home</a>
+                <a style="color: yellow" href="#">Menu</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+        <div class="order-now">
+            <a href="#">ORDER NOW!</a>
+        </div>
+    </header>
+
+    <section class="head">
+        <h1>OUR MENU</h1>
+    </section>
+
+    <section class="menu1">
+        <div class="pic1">
+            <img src="./Assets/chicken.png" alt="Pic 1">
+        </div>
+        <div class="desc1">
+            <h1>FRIED CHICKEN <br> ₱40.00/pc.</h1>
+        </div>
+        <div class="addbtn1">
+            <a href="#">Add +</a>
+        </div>
+    </section>
+
+    <section class="menu1">
+        <div class="pic1">
+            <img src="./Assets/siomai.png" alt="Pic 2">
+        </div>
+        <div class="desc1">
+            <h1>SIOMAI <br> ₱30.00/4pcs.</h1>
+        </div>
+        <div class="addbtn1">
+            <a href="#">Add +</a>
+        </div>
+    </section>
+
+    <section class="menu1">
+        <div class="pic1">
+            <img src="./Assets/lumpia.png" alt="Pic 3">
+        </div>
+        <div class="desc1">
+            <h1>LUMPIA SHANGHAI <br> ₱5.00/pc.</h1>
+        </div>
+        <div class="addbtn1">
+            <a href="#">Add +</a>
+        </div>
+    </section>
+
+    <section class="menu1">
+        <div class="pic1">
+            <img src="./Assets/ngohiong.png" alt="Pic 4">
+        </div>
+        <div class="desc1">
+            <h1>NGOHIONG <br> ₱10.00/pc.</h1>
+        </div>
+        <div class="addbtn1">
+            <a href="#">Add +</a>
+        </div>
+    </section>
+
+    <section class="menu1">
+        <div class="pic1">
+            <img src="./Assets/bolabola.png" alt="Pic 5">
+        </div>
+        <div class="desc1">
+            <h1>BOLA-BOLA <br> ₱10.00/pc.</h1>
+        </div>
+        <div class="addbtn1">
+            <a href="#">Add +</a>
+        </div>
+    </section>
+
+    <section class="orderbtn">
+        <div>
+            <a href="#">ORDER NOW!</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="continf">
+            <h2>Contact Us</h2>
+            <p>
+                <span class="lbl">MAIN OFFICE:</span> Cogon Combado, Ormoc City, Leyte 6541 <br>
+                <span class="lbl">MARKETING & FRANCHISE OFFICE:</span> P. Rodriguez St., Bogo City, Cebu <br>
+                <span class="lbl">LANDLINE:</span> 123-456-789 <br>
+                <span class="lbl">EMAIL:</span> crispykingph@gmail.com
+            </p>
+        </div>
+        <div class="logo2">
+            <img src="./Assets/logo2.png" alt="Logo2 Image">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Crispy King Ventures. All rights reserved.</p>
+    </footer>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
