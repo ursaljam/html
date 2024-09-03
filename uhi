@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MaterialApp(
+    home: MyCustomApp(),
+  ));
+}
+
+class MyCustomApp extends StatelessWidget {
+  const MyCustomApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return   Scaffold(
+      body: Center(
+        child: Text(
+          "Ursal app",
+          style: TextStyle(
+            fontSize: 40,
+            color: Colors.red
+          ),
+        )
+    ) ,
+    ) ;
+    
+  }
+}
