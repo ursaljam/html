@@ -1,0 +1,45 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+       home: Scaffold(
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              height: 125,
+              width: 125,
+              color: Color.fromARGB(255, 223, 75, 124),
+              ),
+              Container(
+              height: 125,
+              width: 125,
+              color: const Color.fromARGB(255, 241, 22, 6),
+              ),
+               Container(
+              height: 180,
+              width: 250,
+              color: Color.fromARGB(255, 74, 185, 10),
+              ),
+               Container(
+              height: 300,
+              width: 250,
+              color: Color.fromARGB(255, 238, 7, 7),
+              ),
+            
+          ]
+        
+          ,)
+         ),
+    );
+  }
+}
